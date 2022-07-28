@@ -4,6 +4,7 @@ import time
 from copy import copy
 from random import randint
 from curses import KEY_RIGHT, KEY_LEFT, KEY_UP, KEY_DOWN
+os.system('title Snake (On CMD)')
 os.system('mode con: cols=60 lines=30')
 os.system('color 0a')
 while True:
@@ -96,6 +97,8 @@ while True:
     print ("   | |__| | (_| | | | | | |  __/ | |__| |\ V /  __/ |    ")
     print ("    \_____|\__,_|_| |_| |_|\___|  \____/  \_/ \___|_|    ")
     print("                         Points: " +str(punti))
+    print (" ")
+    print ("Thanks For playing")
     time.sleep(1)
     input("Press Enter to back to home ")
     os.system('cls')
