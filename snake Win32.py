@@ -4,9 +4,8 @@ import time
 from copy import copy
 from random import randint
 from curses import KEY_RIGHT, KEY_LEFT, KEY_UP, KEY_DOWN
-os.system('title Snake (On CMD)')
+os.system('title Snake')
 os.system('mode con: cols=60 lines=30')
-os.system('color 0a')
 while True:
     print ("    Y")
     print ("  .-^-.")
@@ -44,8 +43,9 @@ while True:
     cibo = [5,35]
     doveGuardo = KEY_DOWN
     punti = 0
-    finestra.addch(cibo[0], cibo[1], '*')
+    finestra.addch(cibo[0], cibo[1], 'X')
     while True:
+        time.sleep(0.01)
         finestra.addstr(0, 14, 'Points: ' + str(punti) + ' ')
         tasto = finestra.getch()
         if tasto !=-1:
@@ -72,13 +72,13 @@ while True:
                 cibo = [randint(1, 28), randint(1,58)]
                 if cibo in snake:
                     cibo = []
-            finestra.addch(cibo[0], cibo [1], '*')
+            finestra.addch(cibo[0], cibo [1], 'X')
     
         else:
             ultimoPezzo = snake.pop()
             finestra.addch(ultimoPezzo[0], ultimoPezzo[1], ' ')
 
-            finestra.addch(snake[0][0], snake [0][1], '*')
+            finestra.addch(snake[0][0], snake [0][1], 'X')
     curses.endwin()
     os.system('cls')
     print ("")
