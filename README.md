@@ -1,7 +1,5 @@
 # snake-on-cmd
-questo è un piccolo giochino per windows lanciabile sul terminale creato da me, sviluppato in python.
-
-(Ho un pochino visto su internet alcune righe di codice)
+questo è un piccolo giochino per windows lanciabile sul terminale ispirato a quello di Nfire
 
 questo programma esiste anche in verisone compilata, così non dovete installarvi python per farlo funzionare
 
