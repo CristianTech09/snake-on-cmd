@@ -1,11 +1,11 @@
 # snake-on-cmd
 questo è un piccolo giochino per windows lanciabile sul terminale ispirato a quello di Nfire
 
-![alt text](https://raw.githubusercontent.com/CristianTech09/snake-on-cmd/main/Screen 1.png)
+![alt text](https://raw.githubusercontent.com/CristianTech09/snake-on-cmd/main/Screen1.png)
 
-![alt text](https://raw.githubusercontent.com/CristianTech09/snake-on-cmd/main/Screen 2.png)
+![alt text](https://raw.githubusercontent.com/CristianTech09/snake-on-cmd/main/Screen2.png)
 
-![alt text](https://raw.githubusercontent.com/CristianTech09/snake-on-cmd/main/Screen 3.png)
+![alt text](https://raw.githubusercontent.com/CristianTech09/snake-on-cmd/main/Screen3.png)
 
 questo programma esiste anche in verisone compilata, così non dovete installarvi python per farlo funzionare
 
